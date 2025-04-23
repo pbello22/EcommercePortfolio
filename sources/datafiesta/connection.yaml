@@ -1,0 +1,6 @@
+# This file was automatically generated
+name: datafiesta
+type: bigquery
+options:
+  authenticator: service-account
+  location: us-east4

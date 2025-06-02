@@ -488,7 +488,11 @@ dates=date/>
   data={top_sellers_table} 
   title="All Sellers: Revenue and Items Sold"
   search=true
-/>
+>
+  <Column id=seller_id />
+  <Column id=total_revenue fmt=usd2 />
+  <Column id=total_items_sold/>
+</DataTable>
 
 <Alert status="info">
 💡 The top two sellers contribute nearly 1 in 5 dollars of total revenue. They are key drivers of performance and candidates for strategic partnerships or incentives.
